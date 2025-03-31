@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'FunnelDisplay';
+    src: url(/manga-site/assets/font/FunnelDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'FunnelSans';
+    src: url(/manga-site/assets/font/FunnelSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url(/manga-site/assets/font/Lexend-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Opensans';
+    src: url(/manga-site/assets/font/OpenSans-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 2rem 15rem;
+    font-family: 'Roboto', serif;
+}
+
+p {
+    font-family: 'Opensans', sans-serif;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none ;
+    line-height: 2em;
+}
+
+header {
+    background-color:#333 ;
+    color:#ffffff;
+    padding: 1.5em;
+    border-bottom: #d1b39f solid 5px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration-style: none;
+}
+
+.logo-home {
+    vertical-align: middle;
+    height: 150px;
+    border: solid 3px #FBB7DD;
+    border-radius: 25% 75% 39% 61% / 4% 66% 34% 96%   ;
+}
+
+body {
+    line-height: 1.8em;
+    margin: 0;
+}
+
+body a {
+    text-decoration-style: none;
+}
+
+nav {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100px;   
+}
+
+nav ul {
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+/* --------------------------------Main et elements du main */
+main {
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 1.5em;
+    margin: auto;
+}
+
+.mangas-home h2 {
+    font-family: 'FunnelSans' sans-serif;
+    margin-bottom: 2rem;
+    font-size: 2.2em;
+    text-decoration: underline solid 2px;
+    text-decoration-color: #d1b39f;
+}
+
+.presentation {
+    text-align: left;
+    border-left: #d1b39f solid 2px;
+    margin-bottom: 3.2rem;
+    padding-left: 1em;
+}
+
+.types {
+    text-align: right;
+    border-right: #d1b39f solid 2px;
+    padding-right: 1em;
+    margin-bottom: 3.2rem;
+}
+
+.seinen {
+    text-align: left;
+    border-left: #d1b39f solid 2px;
+    padding-left: 1em;
+}
+
+/*-------------------------------------- Manga Card */
+
+.manga-card {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+
+.manga-card p {
+    margin-top: 1px;
+}
+
+.berserk-card{
+    display: inline-block;
+    background: linear-gradient(to right, #000000, #6f1a1a);
+    width: 600px;
+    height: 250px;
+    border:solid #333 4px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.vagabond-card {
+    display: inline-block;
+    background: linear-gradient(to top, #000000, #6f1a1a);
+    width: 600px;
+    height: 250px;
+    border:solid #333 4px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.sunkenrock-card {
+    display: inline-block;
+    background: linear-gradient(to left, #000000, #6f1a1a);
+    width: 600px;
+    height: 250px;
+    border:solid #333 4px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.see-more {
+    float: right;
+    font-size: 1rem;
+    width: 15%;
+    height: 2.5vh;
+    background-color: #ffffff;
+    border: solid #000000 2px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.see-more:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.manga-card img {
+    width: 36%;
+    height: auto;
+    border: solid #ffffff 2px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.discover-cards {
+    margin: 2rem;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 5px solid transparent; 
+    border-image: linear-gradient(to right, #000000, #6f1a1a); 
+    border-image-slice: 1;
+}
+
+/* --------------------------Footer et éléments du footer */
+
+footer {
+    border-top: #333 solid 5px;
+    background-image: linear-gradient(to bottom, #d1b39f, #ffffff);
+    padding: 2em;
+}
+
+.logo-footer {
+    float: right;
+    height: 100px;
+    border: solid 3px #FBB7DD;
+    border-radius: 100% 0% 100% 0% / 100% 100% 0% 0%  ;
+}
+
+footer button {
+    font-size: 1rem;
+    background-color: #d1b39f;
+    margin-top: 3.2rem;
+    border: solid 2px #FBB7DD;
+    border-radius: 5px;
+
+}
+
+footer button:hover {
+    background-color: #ffffff;
+}
+
+
+/* ------------------------------Table dans pages */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+th {
+    background-color: #d1b39f;
+}
+tr:nth-child(even) {
+    background-color: #EDEDED;
+}
+
+/* -------------------------------Page berserk */
+
+.berserk-intro img {
+    width: 100%;
+    border: #000000 solid 2px;
+}
+
+.berserk-autor img {
+    width: 40%;
+    border: #000000 solid 2px;
+}
+
+/* -----------------------------Page Vagabond */
+
+.vagabond-intro img {
+    width: 100%;
+    border: #000000 solid 2px;
+}
+
+.vagabond-autor img {
+    width: 40%;
+    border: #000000 solid 2px;
+}
+
+/* ----------------------------Page sun ken rock */
+
+.sunkenrock-intro img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    border: #000000 solid 2px;
+}
+
+.sunkenrock-autor  img {
+    width: 40%; 
+    border: #000000 solid 2px;
+}
+
