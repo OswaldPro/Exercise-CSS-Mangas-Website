@@ -22,7 +22,7 @@ Ce projet consiste en une page web statique mettant en avant un design inspiré 
 
 1. Clonez ce dépôt ou téléchargez les fichiers :
    ```sh
-   git clone https://github.com/votre-utilisateur/seinenxcode.git
+   git clone https://github.com/OswaldPro/Exercise-CSS-Mangas-Website.git
    ```
 2. Ouvrez le fichier `index.html` dans votre navigateur.
 
